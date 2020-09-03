@@ -15,6 +15,8 @@ body {
     height: 40px;
     padding-top: 20px;
     background: #383b38;
+	position: sticky;
+	height: 100px;
     margin: 0 5% 2.50% 5%;
 }
 
@@ -29,8 +31,12 @@ body {
     font-size: 250%;
     font-weight: bold;
     text-decoration: none;
+	background: #383b38;
+	top: 0px;
+	z-index: 10;
+	height: 100px;
     position:fixed;
-    background: #383b38;
+	width: 100%;
 }
 
 .codeclan-navs {
@@ -38,6 +44,7 @@ body {
     float: right;
     padding: 6px 0 0 0;
     position: fixed;
+	z-index: 10;
     padding-left: 230px;
     
 }
@@ -47,6 +54,7 @@ body {
     text-decoration: none;
     margin-right: 12px;
     text-align: right;
+	z-index: 10;
     float: right;
     
 }
