@@ -212,3 +212,13 @@ table, th, td {
     position: relative;
     font-weight: bold;
 }
+
+.pop-up-prototype{
+    height: 500;
+    width: 725;
+    margin-top: 2%;
+}
+
+.pop-up-diagram{
+    margin-top: 2%;
+}
