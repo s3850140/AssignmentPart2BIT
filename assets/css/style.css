@@ -13,37 +13,39 @@ body {
 
 .header {
     height: 40px;
-    padding-top: 25px;
+    padding-top: 20px;
     background: #383b38;
     margin: 0 5% 2.50% 5%;
 }
 
 .codeclan-header {
     display:inline block;
+    
 }
 
 .codeclan-header a {
-    color: #E9E9E9;
-    text-align: right;
+    color: #009999;
+    text-align: left;
     font-size: 250%;
-    background: #383b38;
     font-weight: bold;
     text-decoration: none;
     position:fixed;
+    background: #383b38;
 }
 
 .codeclan-navs {
-    display: block;
+    display:block;
     float: right;
-    padding: 8px 0 0 0;
+    padding: 6px 0 0 0;
     position: fixed;
+    padding-left: 230px;
+    
 }
 
 .codeclan-navs a {
-    color: #FFB226;
-    padding: right;
+    color: #009999;
     text-decoration: none;
-    margin-right: 15px;
+    margin-right: 12px;
     text-align: right;
     float: right;
     
