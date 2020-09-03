@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css?family=Merriweather:400,900&display=swap');
+
+html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Merriweather', serif;
+    background: #383b38;
+}
+
+body {
+    margin: 0;
+}
+
+.header {
+    height: 40px;
+    padding-top: 25px;
+    background: #383b38;
+    margin: 0 5% 2.50% 5%;
+}
+
+.codeclan-header {
+    display:inline block;
+}
+
+.codeclan-header a {
+    color: #E9E9E9;
+    text-align: right;
+    font-size: 250%;
+    background: #383b38;
+    font-weight: bold;
+    text-decoration: none;
+    position:fixed;
+}
+
+.codeclan-navs {
+    display: block;
+    float: right;
+    padding: 8px 0 0 0;
+    position: fixed;
+}
+
+.codeclan-navs a {
+    color: #FFB226;
+    padding: right;
+    text-decoration: none;
+    margin-right: 15px;
+    text-align: right;
+    float: right;
+    
+}
+
+.codeclan-header a:hover, .codeclan-navs a:hover, .dropdown .dropbtn:hover {
+    color: white;
+    transition: color 500ms;
+}
+
+#page-wrapper {
+    margin: 0 5% 2.50% 5%;
+    padding: 15px 30px 15px 30px;
+    background: #EEEEEE;
+    min-height: 50vh;
+}
+
+.text-center {
+    text-align: center;
+}
+
+h1 {
+    font-size: 200%;
+    color: #313431;
+}
+
+h2 {
+    font-size: 150%;
+    color: #313431;
+    margin: 0;
+}
+h3{
+    font-size: 100%;
+    color: #313431;
+    margin: 0;
+}
+
+.text-center {
+    display: block;
+    text-align: center;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+p, li {
+    line-height: 25px;
+    font-size: 14px;
+}
+
+.team-member img {
+    display: inline-block;
+    height: 150px;
+    width: 150px;
+}
+
+.team-member {
+    display: block;
+    padding-bottom: 10px;
+}
+
+.author-info-description {
+    display: inline-block;
+    padding: 0 0 0 10px;
+    width: calc(100% - 180px);
+}
+
+.author-info {
+    padding: 0 0 0 10px;
+}
+
+.justified-text {
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.col-4 {
+    display: inline-table;
+    width: 30%;
+    padding-right: 20px;
+}
+
+.col-4:last-child {
+    padding-right: 0;
+}
+
+.topic {
+    font-weight: 900;
+    text-transform: uppercase;
+    font-size: 24px;
+    text-align: center;
+    color: #383b38;
+}
+
+.sub-topic {
+    font-weight: 900;
+    text-transform: uppercase;
+    font-size: 20px;
+    text-align: center;
+    color: #383b38;
+    padding-top: 15px;
+}
+
+.icon {
+    display: block !important;
+    text-align: center;
+    padding: 25px 0 0 0;
+    font-size: 350%;
+    color: #383b38;
+}
+
+table, th, td {
+    padding: 10px;
+    border-bottom: 1px solid #383b38;
+}
+
+.img {
+    display: block;
+    width: 45%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.small {
+    font-size: 75%;
+}
+
+}
+
+@media only screen and (max-width: 960px) {
+
+    .header {
+        height: auto;
+        margin-bottom: 5px;
+    }
+
+    .codeclan-navs {
+        display: block;
+        float: none;
+        margin-left: 0;
+        margin-right: 10px;
+    }
+
+}
+
+.tableheader {
+	text-align: left;
+}
+
+.tablecontent {
+	line-height: 0;
+}
+
+.text-right{
+    position: relative;
+    font-weight: bold;
+}
