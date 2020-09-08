@@ -222,3 +222,8 @@ table, th, td {
 .pop-up-diagram{
     margin-top: 2%;
 }
+
+dl{
+    font-size: 15px;
+    margin-top: 0px;
+}
